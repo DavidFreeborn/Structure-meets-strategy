@@ -1,0 +1,17 @@
+description: Reconstructed canonical design for Experiment 1.
+network:
+  kind: barabasialbert
+  size: 64
+  attachments: [1, 2, 4, 8, 16, 32]
+conditions:
+  - {op: BalaGoyalOp, reliability: [1.0]}
+  - {op: UnreliableNetworkBasicGullibleBinomialOp, reliability: [0.75, 0.5, 0.25]}
+  - {op: UnreliableNetworkModifiedAlignedBinomialOp, reliability: [0.75, 0.5, 0.25]}
+  - {op: UnreliableNetworkBasicGullibleNegativeEpsOp, reliability: [0.75, 0.5, 0.25]}
+  - {op: UnreliableNetworkModifiedAlignedNegativeEpsOp, reliability: [0.75, 0.5, 0.25]}
+simulation:
+  steps: 100000
+  repeats: 100
+  note: >-
+    100 repeats per cell is the clean reconstruction target. The historical archive
+    combined multiple batches and contains uneven surviving counts.

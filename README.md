@@ -1,34 +1,9 @@
 # Structure Meets Strategy in the Misinformation Age
 
-This repository contains iPython notebooks and supporting documentation for our simulation study on misinformation spread in different network and informational environments.
+This branch contains the reproducibility supplement for **Structure Meets Strategy in the Misinformation Age**.
 
-Archived and citable via Zenodo: https://doi.org/10.5281/zenodo.15167419
+Start with [`supplement/README.md`](supplement/README.md). The supplement provides reconstructed simulation specifications, a pinned PolyGraphs reference implementation, analysis provenance, portable Experiment 1/2 notebooks, a clean Experiment 3 summary script, and empirical-network provenance.
 
-We build on the Polygraphs simulation framework: https://github.com/alexandroskoliousis/polygraphs
+The College Message network is supplied. The six Francis Bacon conditions require the exact separately obtained snapshot described in [`supplement/NETWORK_SOURCES.md`](supplement/NETWORK_SOURCES.md); that dataset is excluded from the public checkout.
 
-## Contents
-
-- iPython notebooks with simulation code and results
-- Documentation on how data is shared and licensed
-
-## Dependencies
-
-This project uses the Polygraphs framework. Please see the original repository for installation instructions.
-
-## License
-
-- Code: MIT License
-- Data: Creative Commons Attribution 4.0 (CC BY 4.0)
-
-## Developers
-
-This project is developed by:
-
-- Dr. Brian Ball, Northeastern University, London
-- Dr. Dr David Peter Wallis Freeborn, Northeastern University, London
-- Federica Imbriale, Northeastern University, London
-- Dr. Amil Mohanan, Northeastern University, London
-- Dr. Giovanni Petri, Northeastern University, London
-- Prudhvi Vuda, Northeastern University, Boston
-
-For inquiries or data access, contact: david.freeborn@nulondon.ac.uk
+Historical raw simulation outputs are not distributed. The package is designed for fresh replication of the experimental designs and analyses rather than byte-for-byte reconstruction of the original random draws.

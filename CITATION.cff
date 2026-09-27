@@ -1,34 +1,29 @@
- cff-version: 1.2.0
-message: "If you use this work, please cite it as below."
+cff-version: 1.2.0
+message: "If you use this repository, please cite the paper and this software repository."
 title: "Structure Meets Strategy in the Misinformation Age"
 authors:
-  - family-names: Brian
-    given-names: Ball
+  - family-names: Ball
+    given-names: Brian
     affiliation: Northeastern University London
   - family-names: Freeborn
     given-names: David Peter Wallis
     affiliation: Northeastern University London
-  - family-names: Federica
-    given-names: Imbriale
+  - family-names: Imbriale
+    given-names: Federica
     affiliation: Northeastern University London
-  - family-names: Amil
-    given-names: Mohanan
+  - family-names: Mohanan
+    given-names: Amil
     affiliation: Northeastern University London
-  - family-names: Giovanni
-    given-names: Petri
+  - family-names: Petri
+    given-names: Giovanni
     affiliation: Northeastern University London
-- family-names: Vuda
-  given-names: Prudhvi
-  affiliation: Northeastern University Boston
-
-date-released: 2025-04-07
-version: 1.0.0
+  - family-names: Vuda
+    given-names: Prudhvi
+    affiliation: Northeastern University Boston
 repository-code: https://github.com/DavidFreeborn/Structure-meets-strategy
-license: MIT
 keywords:
   - misinformation
+  - disinformation
   - simulation
   - network epistemology
-  - Polygraphs
-  - philosophy of information
-doi: 10.5281/zenodo.15167419
+  - PolyGraphs

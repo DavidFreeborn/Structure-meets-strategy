@@ -1,0 +1,24 @@
+description: Experiment 3 empirical-network simulations.
+conditions:
+  - {op: BalaGoyalOp, reliability: 1.0, label: pristine}
+  - {op: UnreliableNetworkIdealOp, reliability: 0.75, label: ideal}
+  - {op: UnreliableNetworkBasicGullibleBinomialOp, reliability: 0.75, label: gullible_misinformation}
+  - {op: UnreliableNetworkModifiedAlignedBinomialOp, reliability: 0.75, label: aligned_misinformation}
+  - {op: UnreliableNetworkBasicGullibleNegativeEpsOp, reliability: 0.75, label: gullible_disinformation}
+  - {op: UnreliableNetworkModifiedAlignedNegativeEpsOp, reliability: 0.75, label: aligned_disinformation}
+networks:
+  college_message:
+    kind: gml
+    path: supplement/networks/college_message.gml
+    nodes: 1893
+    edges: 13835
+    repeats: 50
+  francis_bacon:
+    kind: gml
+    path: supplement/networks/francisbacon-2023-04-23.gml
+    nodes: 13032
+    edges: 171540
+    repeats: 10
+simulation:
+  steps: 25000
+  snapshot_interval: 100

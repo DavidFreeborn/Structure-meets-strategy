@@ -1,0 +1,70 @@
+{
+  "polygraphs_reference_commit": "f2c8d416c3affafb7215e40f0dd0b79549649ebc",
+  "polygraphs_last_upstream_simulation_code_commit_before_reference": "37b9222bdfb000c72451f06af3de8a515e7d5b54",
+  "note": "The pinned commit is the reference implementation for replication. Available materials do not prove that every historical run was executed from this exact Git checkout.",
+  "source_commits": {
+    "structure_meets_strategy_main": "c55a114777a31f037d7dc0a0f8b76f86932318a7",
+    "empirical_network_analysis": "1e0f25db2c2a1e8abf5367e10525794918bb53e8"
+  },
+  "analysis_sources": {
+    "experiment_1_proportions": {
+      "repo": "DavidFreeborn/Structure-meets-strategy",
+      "commit": "c55a114777a31f037d7dc0a0f8b76f86932318a7",
+      "path": "notebooks/Experiment 1/proportions.ipynb",
+      "blob": "119e35fb410d5bd1a367fd4a954276918761fc84"
+    },
+    "experiment_1_steps": {
+      "repo": "DavidFreeborn/Structure-meets-strategy",
+      "commit": "c55a114777a31f037d7dc0a0f8b76f86932318a7",
+      "path": "notebooks/Experiment 1/steps.ipynb",
+      "blob": "c5a5a90505fc98421550206681bf8bf0066e9b3a"
+    },
+    "experiment_2_multivariate": {
+      "sha256": "6ef385191cc7a9a10b11fd6dbd545c7234932076b5e7fc1763d39e8f257c57e4",
+      "source": "Original notebook supplied by project authors; historical source file is not distributed in this package."
+    },
+    "experiment_3_college_comparison": {
+      "repo": "DavidFreeborn/Structure-meets-strategy",
+      "commit": "c55a114777a31f037d7dc0a0f8b76f86932318a7",
+      "path": "notebooks/prudhvi_vuda/beliefs_comparision.ipynb",
+      "blob": "4aba24f40e6cf1442371ece57592271ca39bc148"
+    },
+    "experiment_3_college_stats": {
+      "repo": "DavidFreeborn/Structure-meets-strategy",
+      "commit": "c55a114777a31f037d7dc0a0f8b76f86932318a7",
+      "path": "notebooks/prudhvi_vuda/beliefs_stats.ipynb",
+      "blob": "5ab6131048b7282d2bb8b6141f89be89cfd0dd86"
+    },
+    "experiment_3_francis_comparison": {
+      "repo": "Prudhvivuda/polygraphs",
+      "commit": "1e0f25db2c2a1e8abf5367e10525794918bb53e8",
+      "path": "examples/francisbacon/beliefs_comparision.ipynb",
+      "blob": "fbeca76cb11230a4fca55758d379be92f33bb2b0"
+    },
+    "experiment_3_francis_stats": {
+      "repo": "Prudhvivuda/polygraphs",
+      "commit": "1e0f25db2c2a1e8abf5367e10525794918bb53e8",
+      "path": "examples/francisbacon/beliefs_stats.ipynb",
+      "blob": "28ad28163143a694b8dd5b8e324f312abdbc1be5"
+    }
+  },
+  "networks": {
+    "college_message": {
+      "file": "supplement/networks/college_message.gml",
+      "sha256": "0adc0f2624330333382dee7b7ec8dc4ad98d108ccd19ceee3f3abf0e1564c22b",
+      "bytes": 675896,
+      "nodes": 1893,
+      "edges": 13835,
+      "topology_sha256": "5a25fde0318bcf9b146dd3d3070d540cb3f7af4318226c9c79a1cfa4c32bbbc5"
+    },
+    "francis_bacon": {
+      "file": "supplement/networks/francisbacon-2023-04-23.gml",
+      "sha256": "ca5522f79d9d29124ff7de212e5f05e1fd0cc9d19f8150bf29d1326c2889d4f6",
+      "bytes": 9095087,
+      "nodes": 13032,
+      "edges": 171540,
+      "public_git_default": "excluded pending confirmation of redistribution terms",
+      "topology_sha256": "7311855a1ef0be5631bf1df9f5ca4ab91ae9e7d27315e7bf8f72d2339837aa97"
+    }
+  }
+}
