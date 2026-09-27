@@ -6,6 +6,26 @@
     "structure_meets_strategy_main": "c55a114777a31f037d7dc0a0f8b76f86932318a7",
     "empirical_network_analysis": "1e0f25db2c2a1e8abf5367e10525794918bb53e8"
   },
+  "source_archives": {
+    "empirical_network_analysis": {
+      "repo": "Prudhvivuda/polygraphs",
+      "branch": "francisbacon",
+      "commit": "1e0f25db2c2a1e8abf5367e10525794918bb53e8",
+      "archive_url": "https://archive.softwareheritage.org/swh:1:rev:1e0f25db2c2a1e8abf5367e10525794918bb53e8/",
+      "revision_identifier": "swh:1:rev:1e0f25db2c2a1e8abf5367e10525794918bb53e8",
+      "snapshot_identifier": "swh:1:snp:acac0a40c41d2593fdbd9b529dd02babcff2b53f",
+      "visit_status": "full",
+      "verification": "The exact revision was independently retrieved from Software Heritage.",
+      "equivalence_to_polygraphs_reference": {
+        "reference_commit": "f2c8d416c3affafb7215e40f0dd0b79549649ebc",
+        "comparison": "Complete Git trees: all 118 files in the archived version match the pinned upstream version exactly.",
+        "matching_files": 118,
+        "reference_only_files": ["codemeta.json"],
+        "note": "This establishes source-code equivalence, not which checkout was used for every historical simulation."
+      },
+      "scope": "Source provenance only; historical simulation outputs remain missing and the Francis Bacon dataset remains separately required and excluded from the public checkout."
+    }
+  },
   "analysis_sources": {
     "experiment_1_proportions": {
       "repo": "DavidFreeborn/Structure-meets-strategy",

@@ -18,6 +18,8 @@ Tested on Linux x86_64 with Python 3.11.16, CPU Torch 2.2.0, DGL 2.1.0 and Torch
 
 The pinned PolyGraphs commit is `f2c8d416c3affafb7215e40f0dd0b79549649ebc`. This is a replication reference, not proof of every historical checkout. The simulator source is unchanged between the recorded preceding simulation-code commit and this reference commit. Dependencies are a tested reference environment, not a reconstruction of every historical workstation.
 
+The `francisbacon` commit `1e0f25db2c2a1e8abf5367e10525794918bb53e8` from `Prudhvivuda/polygraphs` is preserved in [Software Heritage](https://archive.softwareheritage.org/swh:1:rev:1e0f25db2c2a1e8abf5367e10525794918bb53e8/). The archive visit completed with status `full`, and the exact revision was independently retrieved. A complete Git-tree comparison showed that all 118 files in this version match the pinned upstream version exactly; upstream adds only `codemeta.json`. This establishes source-code equivalence, not which checkout was used for every historical simulation. `SOURCE_MANIFEST.json` records the archive identifiers. This source archive does not resolve the missing historical simulation outputs or the separately required Francis Bacon dataset.
+
 From the repository root:
 
 ```bash
