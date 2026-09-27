@@ -11,15 +11,18 @@ authors:
   - family-names: Imbriale
     given-names: Federica
     affiliation: Northeastern University London
+  - family-names: Kuri Perez Villaman
+    given-names: Nicolas
+    affiliation: Northeastern University London
+  - family-names: Vuda
+    given-names: Prudhvi
+    affiliation: Northeastern University Boston
   - family-names: Mohanan
     given-names: Amil
     affiliation: Northeastern University London
   - family-names: Petri
     given-names: Giovanni
     affiliation: Northeastern University London
-  - family-names: Vuda
-    given-names: Prudhvi
-    affiliation: Northeastern University Boston
 repository-code: https://github.com/DavidFreeborn/Structure-meets-strategy
 keywords:
   - misinformation
