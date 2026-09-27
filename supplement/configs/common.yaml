@@ -1,0 +1,22 @@
+# Common effective settings reconstructed from resolved PolyGraphs run configurations.
+device: cpu
+seed: 123456789
+epsilon: 0.001
+trials: 64
+lowerupper: 0.99
+upperlower: 0.5
+mistrust: 0.0
+antiupdating: false
+trust: 0.0
+unreliablenodes: []
+init:
+  kind: uniform
+  uniform: {lower: 0.0, upper: 1.0}
+logging: {enabled: true, interval: 100}
+snapshots: {enabled: true, interval: 100, messages: false}
+network_defaults:
+  directed: false
+  selfloop: true
+  random: {seed: null, tries: 100}
+  wattsstrogatz: {seed: null, tries: 100}
+  barabasialbert: {seed: null}

@@ -1,0 +1,16 @@
+description: 32-agent subset used for the reported conditional Zollman trade-off.
+network:
+  kind: barabasialbert
+  size: 32
+  attachments: [1, 2, 4, 8, 16]
+condition:
+  op: UnreliableNetworkBasicGullibleBinomialOp
+  reliability: 0.25
+simulation:
+  steps: 100000
+historical_analysis_counts:
+  1: 50
+  2: 25
+  4: 25
+  8: 100
+  16: 100

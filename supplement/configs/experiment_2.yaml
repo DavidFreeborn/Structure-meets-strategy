@@ -1,0 +1,31 @@
+description: Experiment 2 design matching the dataset used by the final multivariate analysis.
+network_size: 64
+conditions:
+  - {op: BalaGoyalOp, reliability: 1.0, role: pristine_benchmark}
+  - {op: UnreliableNetworkIdealOp, reliability: 0.75, role: ideal_benchmark}
+  - {op: UnreliableNetworkBasicGullibleBinomialOp, reliability: 0.75}
+  - {op: UnreliableNetworkModifiedAlignedBinomialOp, reliability: 0.75}
+  - {op: UnreliableNetworkBasicGullibleNegativeEpsOp, reliability: 0.75}
+  - {op: UnreliableNetworkModifiedAlignedNegativeEpsOp, reliability: 0.75}
+network_families:
+  barabasialbert:
+    attachments: [1, 2, 4, 8, 16, 32]
+  random:
+    probability: [0.12, 0.22, 0.24, 0.36, 0.38, 0.48, 0.50]
+    tries: 100
+  wattsstrogatz:
+    knn: [2, 4, 8, 14, 16, 24, 32]
+    probability: [0.0, 0.25, 0.50, 0.75]
+    tries: 100
+simulation:
+  steps: 100000
+  repeats: 100
+analysis_subset:
+  reliability: 0.75
+  operations:
+    - UnreliableNetworkBasicGullibleBinomialOp
+    - UnreliableNetworkModifiedAlignedBinomialOp
+    - UnreliableNetworkBasicGullibleNegativeEpsOp
+    - UnreliableNetworkModifiedAlignedNegativeEpsOp
+  expected_accuracy_runs: 12665
+  expected_efficiency_runs: 9132

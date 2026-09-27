@@ -1,0 +1,12 @@
+outputs/
+configs/generated/
+analysis/**/raw_data/
+analysis/**/results/
+analysis/**/images/
+analysis/**/visualisations/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+# Exact historical snapshot is present in the handoff bundle but is not staged by default
+# until Six Degrees of Francis Bacon redistribution terms are confirmed.
+networks/francisbacon-2023-04-23.gml
